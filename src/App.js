@@ -41,8 +41,8 @@ class App extends Component {
 
 
 <header className="App-header">
-  <img src={richardPic} className="App-logo" alt="logo"/>
-  <p>
+  <img src={richardPic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
     Richard Pena - Co Leader
     <br></br>
     Contact info
@@ -56,8 +56,8 @@ class App extends Component {
 
 
 <header className="App-header">
-  <img src={alexPic} className="App-logo" alt="logo"/>
-  <p>
+  <img src={alexPic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
   Donghak Alex Oh - Coder
     <br></br>
     Contact info
@@ -71,8 +71,8 @@ class App extends Component {
 
 
 <header className="App-header">
-  <img src={gordonPic} className="App-logo" alt="logo"/>
-  <p>
+  <img src={gordonPic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
   Gordon Hu - Developer Operations
     <br></br>
     Contact info
@@ -84,8 +84,8 @@ class App extends Component {
 </header>
 
 <header className="App-header">
-  <img src={austinPic} className="App-logo" alt="logo"/>
-  <p>
+  <img src={austinPic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
   Austin Moss-Ennis - Quality Assurance
     <br></br>
     Contact info
@@ -97,8 +97,8 @@ class App extends Component {
 </header>
 
 <header className="App-header">
-  <img src={ericPic} className="App-logo" alt="logo"/>
-  <p>
+  <img src={ericPic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
   Eric Khoi Huynh - Developer Operations
     <br></br>
     Contact info
@@ -111,8 +111,8 @@ class App extends Component {
 
 
 <header className="App-header">
-  <img src={kylePic} className="App-logo" alt="logo"/>
-  <p>
+  <img src={kylePic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
   Kyle Burt - Tools And Utility
     <br></br>
     Contact info
@@ -124,8 +124,8 @@ class App extends Component {
 </header>
 
 <header className="App-header">
-  <img src={simonPic} className="App-logo" alt="logo"/>
-  <p>
+  <img src={simonPic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
   Simon Giraud - Coder
     <br></br>
     Contact info
@@ -137,8 +137,8 @@ class App extends Component {
 </header>
 
 <header className="App-header">
-  <img src={tenshiPic} className="App-logo" alt="logo"/>
-  <p>
+  <img src={tenshiPic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
   Tenshi Mori - Tools And Utility
     <br></br>
     Contact info
@@ -150,8 +150,8 @@ class App extends Component {
 </header>
 
 <header className="App-header">
-  <img src={philipPic} className="App-logo" alt="logo"/>
-  <p>
+  <img src={philipPic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
   Phillip Jo
     <br></br>
     Contact info
@@ -164,13 +164,6 @@ class App extends Component {
 
 
 </div>
-
-
-
-
-
-
-
     );
   }
 }
