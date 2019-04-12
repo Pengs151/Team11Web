@@ -13,22 +13,31 @@ import simonPic from './Images/SimonPic.jpeg';
 import tenshiPic from './Images/TenshiPic.jpg';
 
 class App extends Component {
+
+  state = { rotating: true }
+
+  toggleRotate = () => {
+    console.log("rotating is currently: " + this.state.rotating)
+    this.setState({ rotating: !this.state.rotating})
+  }
+
   render() {
+    const rotation = this.state.rotating ? 'App-logo' : 'end-rotate';
     return (
       <div className="App">
         <header className="App-header">
-          <img src={ricardoPic} className="App-logo" alt="logo"/>
-          <p>
+          <img src={ricardoPic} className={`${rotation}`} alt="logo"/>
+          <p onClick={this.toggleRotate} >
             Ricardo Molina - Leader
             <br></br>
-            Contact info 
+            Contact info
             <br></br>
             Telephone: (619) 587-1009
             <br></br>
             Email: r3molina@ucsd.edu
           </p>
         </header>
-      
+
 
 
 <header className="App-header">
@@ -36,7 +45,7 @@ class App extends Component {
   <p>
     Richard Pena - Co Leader
     <br></br>
-    Contact info 
+    Contact info
     <br></br>
     Telephone: (310) 779-5258
     <br></br>
@@ -51,7 +60,7 @@ class App extends Component {
   <p>
   Donghak Alex Oh - Coder
     <br></br>
-    Contact info 
+    Contact info
     <br></br>
     Telephone: (619) 314-2950
     <br></br>
@@ -64,9 +73,9 @@ class App extends Component {
 <header className="App-header">
   <img src={gordonPic} className="App-logo" alt="logo"/>
   <p>
-  Gordon Hu - Developer Operations  
+  Gordon Hu - Developer Operations
     <br></br>
-    Contact info 
+    Contact info
     <br></br>
     Telephone: (425) 281-5231
     <br></br>
@@ -77,9 +86,9 @@ class App extends Component {
 <header className="App-header">
   <img src={austinPic} className="App-logo" alt="logo"/>
   <p>
-  Austin Moss-Ennis - Quality Assurance 
+  Austin Moss-Ennis - Quality Assurance
     <br></br>
-    Contact info 
+    Contact info
     <br></br>
     Telephone: (661) 301-0301
     <br></br>
@@ -92,7 +101,7 @@ class App extends Component {
   <p>
   Eric Khoi Huynh - Developer Operations
     <br></br>
-    Contact info 
+    Contact info
     <br></br>
     Telephone: (408) 550-4171
     <br></br>
@@ -106,7 +115,7 @@ class App extends Component {
   <p>
   Kyle Burt - Tools And Utility
     <br></br>
-    Contact info 
+    Contact info
     <br></br>
     Telephone: (619) 456-7136
     <br></br>
@@ -119,7 +128,7 @@ class App extends Component {
   <p>
   Simon Giraud - Coder
     <br></br>
-    Contact info 
+    Contact info
     <br></br>
     Telephone: 3 (364) 761-1158
     <br></br>
@@ -130,9 +139,9 @@ class App extends Component {
 <header className="App-header">
   <img src={tenshiPic} className="App-logo" alt="logo"/>
   <p>
-  Tenshi Mori - Tools And Utility  
+  Tenshi Mori - Tools And Utility
     <br></br>
-    Contact info 
+    Contact info
     <br></br>
     Telephone: (929) 276-2718
     <br></br>
@@ -143,9 +152,9 @@ class App extends Component {
 <header className="App-header">
   <img src={philipPic} className="App-logo" alt="logo"/>
   <p>
-  Phillip Jo  
+  Phillip Jo
     <br></br>
-    Contact info 
+    Contact info
     <br></br>
     Telephone: (714) 904-8485
     <br></br>
