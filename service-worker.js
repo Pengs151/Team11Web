@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Pengs151/Team11Web/precache-manifest.d858c2c484b3d67479023abcf185b14d.js"
+  "/Team11Web/precache-manifest.3ed797592786deed39aa7eef42f59d59.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Pengs151/Team11Web/index.html", {
+workbox.routing.registerNavigationRoute("/Team11Web/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
