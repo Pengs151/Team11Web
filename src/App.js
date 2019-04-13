@@ -11,6 +11,7 @@ import kylePic from './Images/KylePic.jpg';
 import philipPic from './Images/PhilipPic.JPG';
 import simonPic from './Images/SimonPic.jpeg';
 import tenshiPic from './Images/TenshiPic.jpg';
+import estherPic from './Images/EstherPic.jpg';
 
 class App extends Component {
 
@@ -162,6 +163,18 @@ class App extends Component {
   </p>
 </header>
 
+<header className="App-header">
+  <img src={estherPic} className={`${rotation}`} alt="logo"/>
+  <p onClick={this.toggleRotate} >
+  Esther Zhao
+    <br></br>
+    Contact info
+    <br></br>
+    Telephone: (626) 872-8281
+    <br></br>
+    Email: ewzhao@ucsd.edu
+  </p>
+</header>
 
 </div>
     );
