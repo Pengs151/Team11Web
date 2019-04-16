@@ -23,7 +23,27 @@
   color: #61dafb;
 }
 
-.mission-statement {    
+.names li {
+  list-style-type:none;
+  padding-left: 0pt;
+  display: inline;
+  padding-right: 20px;
+}
+
+.names a {
+  text-decoration: none;
+}
+
+.names a:hover {
+  background-color: yellow;
+}
+
+.names a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+.mission-statement {
   list-style-type:none;
   padding-left: 0pt;
 }

@@ -8,7 +8,7 @@ import austinPic from './Images/AustinPic.jpg';
 import ericPic from './Images/EricPic.jpg';
 import gordonPic from './Images/GordonPic.jpg';
 import kylePic from './Images/KylePic.jpg';
-import philipPic from './Images/PhilipPic.JPG';
+import phillipPic from './Images/PhillipPic.JPG';
 import simonPic from './Images/SimonPic.jpeg';
 import tenshiPic from './Images/TenshiPic.jpg';
 import estherPic from './Images/EstherPic.jpg';
@@ -38,12 +38,27 @@ class App extends Component {
         <li><strong>A</strong>ll In</li>
         <li><strong>C</strong>ustomer <strong>O</strong>riented</li>
         <li><strong>S</strong>crappy</li>
-
       </ul>
       </header>
 
+      <header>
+        <ul className="names">
+          <li><a href="#Ricardo">Ricardo</a></li>
+          <li><a href="#Richard">Richard</a></li>
+          <li><a href="#Alex">Alex</a></li>
+          <li><a href="#Gordon">Gordon</a></li>
+          <li><a href="#Austin">Austin</a></li>
+          <li><a href="#Eric">Eric</a></li>
+          <li><a href="#Kyle">Kyle</a></li>
+          <li><a href="#Simon">Simon</a></li>
+          <li><a href="#Tenshi">Tenshi</a></li>
+          <li><a href="#Phillip">Phillip</a></li>
+          <li><a href="#Esther">Esther</a></li>
+        </ul>
+      </header>
+
       <header className="App-header">
-        <a onClick={this.toggleRotate} href="#"><img src={ricardoPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Ricardo"><img src={ricardoPic} className={`${rotation}`} alt="logo"/></a>
         <p>
           Ricardo Molina - Leader
           <br></br>
@@ -57,7 +72,7 @@ class App extends Component {
 
 
       <header className="App-header">
-        <a onClick={this.toggleRotate} href="#"><img src={richardPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Richard"><img src={richardPic} className={`${rotation}`} alt="logo"/></a>
         <p>
           Richard Pena - Co Leader
           <br></br>
@@ -72,7 +87,7 @@ class App extends Component {
 
 
       <header className="App-header">
-        <a onClick={this.toggleRotate} href="#"><img src={alexPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Alex"><img src={alexPic} className={`${rotation}`} alt="logo"/></a>
         <p>
         Donghak Alex Oh - Coder
           <br></br>
@@ -87,7 +102,7 @@ class App extends Component {
 
 
       <header className="App-header">
-        <a onClick={this.toggleRotate} href="#"><img src={gordonPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Gordon"><img src={gordonPic} className={`${rotation}`} alt="logo"/></a>
         <p>
         Gordon Hu - Developer Operations
           <br></br>
@@ -100,7 +115,7 @@ class App extends Component {
       </header>
 
       <header className="App-header">
-        <a onClick={this.toggleRotate} href="#"><img src={austinPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Austin"><img src={austinPic} className={`${rotation}`} alt="logo"/></a>
         <p>
         Austin Moss-Ennis - Quality Assurance
           <br></br>
@@ -113,7 +128,7 @@ class App extends Component {
       </header>
 
       <header className="App-header">
-        <a onClick={this.toggleRotate} href="#"><img src={ericPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Eric"><img src={ericPic} className={`${rotation}`} alt="logo"/></a>
         <p>
         Eric Khoi Huynh - Developer Operations
           <br></br>
@@ -127,7 +142,7 @@ class App extends Component {
 
 
       <header className="App-header">
-        <a onClick={this.toggleRotate}><img src={kylePic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Kyle"><img src={kylePic} className={`${rotation}`} alt="logo"/></a>
         <p>
         Kyle Burt - Tools And Utility
           <br></br>
@@ -140,7 +155,7 @@ class App extends Component {
       </header>
 
       <header className="App-header">
-        <a onClick={this.toggleRotate}><img src={simonPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Simon"><img src={simonPic} className={`${rotation}`} alt="logo"/></a>
         <p>
         Simon Giraud - Coder
           <br></br>
@@ -153,7 +168,7 @@ class App extends Component {
       </header>
 
       <header className="App-header">
-        <a onClick={this.toggleRotate}><img src={tenshiPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Tenshi"><img src={tenshiPic} className={`${rotation}`} alt="logo"/></a>
         <p>
         Tenshi Mori - Tools And Utility
           <br></br>
@@ -166,7 +181,7 @@ class App extends Component {
       </header>
 
       <header className="App-header">
-        <a onClick={this.toggleRotate}><img src={philipPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Phillip"><img src={phillipPic} className={`${rotation}`} alt="logo"/></a>
         <p>
         Phillip Jo
           <br></br>
@@ -179,7 +194,7 @@ class App extends Component {
       </header>
 
       <header className="App-header">
-        <a onClick={this.toggleRotate}><img src={estherPic} className={`${rotation}`} alt="logo"/></a>
+        <a onClick={this.toggleRotate} href="#" id="Esther"><img src={estherPic} className={`${rotation}`} alt="logo"/></a>
         <p>
         Esther Zhao
           <br></br>
