@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Team11Web/static/media/EricPic.5af195ed.jpg"
   },
   {
-    "revision": "ffba440c7c91457922b8",
-    "url": "/Team11Web/static/css/main.ebd87fbf.chunk.css"
+    "revision": "37d1ec9a84859294b8e9",
+    "url": "/Team11Web/static/css/main.a515982a.chunk.css"
   },
   {
     "revision": "bbdb7eef169ab0e048bc",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Team11Web/static/media/AustinPic.35f61c3f.jpg"
   },
   {
-    "revision": "ffba440c7c91457922b8",
-    "url": "/Team11Web/static/js/main.20ed9eab.chunk.js"
+    "revision": "37d1ec9a84859294b8e9",
+    "url": "/Team11Web/static/js/main.a94b883e.chunk.js"
   },
   {
     "revision": "e315fe9f815b694a450abd48da278af0",
@@ -45,7 +45,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "75d5652eaecffd3bd5ef3000342255c5",
-    "url": "/Team11Web/static/media/PhilipPic.75d5652e.JPG"
+    "url": "/Team11Web/static/media/PhillipPic.75d5652e.JPG"
   },
   {
     "revision": "cc1882dc12971b92b4b95a9b31eaf36d",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Team11Web/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "31c15bd458173a3652a2878d41e554cc",
+    "revision": "09fa19fb1d75db21c075a11e3ba0b6a5",
     "url": "/Team11Web/index.html"
   }
 ];
