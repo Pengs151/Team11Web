@@ -23,6 +23,11 @@
   color: #61dafb;
 }
 
+.mission-statement {    
+  list-style-type:none;
+  padding-left: 0pt;
+}
+
 .end-rotate {
   height: auto;
   max-width: 35%;
